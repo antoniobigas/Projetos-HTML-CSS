@@ -1,0 +1,7 @@
+loren ipsum : https://www.lipsum.com/feed/html
+
+gera textos aleatorios.
+
+
+html entities : https://www.w3schools.com/html/html_entities.asp
+gera os caracteres, porem em codigo. ex: maior e menor <> de forma que aparece assim na tela. e nao fique no back para o usuario

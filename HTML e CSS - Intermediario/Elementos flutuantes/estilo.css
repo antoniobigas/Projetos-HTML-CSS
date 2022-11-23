@@ -1,0 +1,78 @@
+/* 
+modelo de caixa 
+ 
+
+.conteudo {
+	border: 1px solid red ;
+	/* neste caso estamos formatando a div , e por tratar-se de caixa, tem como diminuir esse monte de dimensao top bottom left etc
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	e a forma reduzida vai abaixo. \/
+	
+	/*padding: 20px 15px 10px 5px;  */
+
+	/*width: 150px; 
+	padding: 20px; /* forma de escrever reduzido, atribui para todos o mesmo px */
+	/* margin-top: 20px ;
+	margin-right: 20px;
+	margin-left: 20;
+	margin-bottom: 20px; margin aplica a margem dentro da caixa criada na div.*/
+	/* margin: 20px;
+}
+
+/* abaixo criar o conteudo 2, de forma totalmente simplificada pro codigo nao ficar essa salada toda comentada */
+
+/*
+.conteudo2 {
+	width: 120px;
+	padding: 15px;
+	margin: 15px;
+	border: 2px solid red ;
+}
+ */
+
+/*
+
+#noticia {
+	background: #f9f9f9;
+	padding: 10px;
+	margin: 10px;
+	border: 1px solid gray;
+}
+referente ao MODELO CAIXA.
+ */
+
+
+/* referente ao ELEMENTOS FLUTUANTES */
+
+.conteudo{
+	background: blue;
+	border: 1px solid gray;
+	width:200px ;
+	height: 200px;
+	float: right ;
+	margin: 10px;
+}
+/* float left as caixas aparecem uma do lado da outra, float right flutua em cima da tela */
+
+
+.conteudo-zero{
+	background: red;
+	border: 1px solid gray;
+	width:200px ;
+	height: 200px;
+	 
+	margin: 10px;
+} 
+
+.clear {
+	clear: both;
+}
+
+
+#principal {
+	border: 5px solid red;
+	background: green;
+}

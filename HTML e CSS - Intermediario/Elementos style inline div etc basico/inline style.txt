@@ -1,0 +1,5 @@
+3 maneiras de usar o css
+
+inline style - aplicar formtação direta no elemento
+internal style sheet - voce coloca o estilo direto dentro do codigo
+external style sheet- voce cola as formatações do site em um arquivo externo (RECOMENDAVEL)

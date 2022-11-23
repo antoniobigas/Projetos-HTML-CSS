@@ -1,0 +1,38 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* alinhar texto text-align: center; */
+}
+
+/* quando criado uma classe para tabela especifica, o design é chamado por class
+quando criado um id , o design e chamado por id.
+*/
+table.eletronico  {
+    width: 600px;
+    border-collapse: separate;
+}
+
+th, td {
+    padding: 7px;
+}
+
+th {
+    text-transform: uppercase;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #111;
+    text-align: left;
+    font-size: 90%;
+    letter-spacing: 0.1em;
+}
+
+tr.alternado {
+    background-color: #efefef;
+}
+/* o efeito abaixo th:hover fica colorido a linha da tabela onde o mouse passa.*/
+tr:hover {
+    background-color: #c3e6e5;
+
+}
+.numero {
+    text-align: right;
+}
+

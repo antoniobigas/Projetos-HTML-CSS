@@ -1,0 +1,59 @@
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #643d87 url(imagens/fundo.jpg) no-repeat top center;
+}
+
+#container {
+	width: 400px; /* Define Largura */
+	height: 300px;/* Define altura  */
+	background-color: rgba(255,255,255,0.3);/* RGBA255? e transparencia 0.3   */
+	-webkit-border-radius: 10px;/*  */
+	-moz-border-radius: 10px;/*  */
+	border-radius: 10px;/*  */
+	margin: 0 auto;/* define margem centralizada */
+	margin-top: 120px;/*define espaçamento superior */
+	text-align: center;/* alinha o texto ao centro */
+}
+
+#container img {
+	width: 120px;/* define largura */
+	height: 120px;/* define altura */
+	margin-top: -60px;/* define a margem negativa 60px centraliza acima do container dessa forma  */
+	margin-bottom: 30px;/* define a altura da marge */
+}
+
+input {
+	height: 40px;/* altura  */
+	width: 80%;/*  */
+	font-size: 18px;/* tamanho fonte */
+	margin-bottom: 10px;/* espaçamento entre inputs */
+	background-color: #fff;/*  */
+	padding-left: 40px;/* espaçamento a direita */
+	border: none;/* sem borda  */
+	background-repeat: no-repeat;/* nao repetir fundo */
+	background-position: 10px;/* posicao do background */
+}
+
+input.email {
+	background-image: url(imagens/icone-usuario.png);
+}
+
+input.senha {
+	background-image: url(imagens/icone-cadeado.png);
+}
+
+input.submit {
+	color: #fff;
+	background-color: #f79300;
+	border: 2px solid #db7d00;
+	padding: 5px 20px;
+	height: 45px;
+	width: 90%;
+
+	background: -webkit-linear-gradient(to bottom, #faa600, #f68a00); /* cofigura degradê webkit */
+	background: -moz-linear-gradient(to bottom, #faa600, #f68a00);/* configura degradê  moz */
+	background: -o-linear-gradient(to bottom, #faa600, #f68a00);/* configura degradê O */
+	background: linear-gradient(to bottom, #faa600, #f68a00);/* configura degradê */
+
+}
+
